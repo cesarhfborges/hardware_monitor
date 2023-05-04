@@ -1,5 +1,80 @@
+@import "primeicons/primeicons.css";
+//@import "primeng/resources/themes/lara-dark-blue/theme.css";
+@import "assets/themes/custom_theme.css";
+@import "primeng/resources/primeng.css";
+
 html, body {
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  //font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-family);
+  background: #0B0C13; // #1E2530
 }
+
+//.p-message.p-message-info {
+//  background: #01686f;
+//  border: solid #0f8b94;
+//  border-width: 0 0 0 6px;
+//  color: #ffffff;
+//
+//  .p-message-close {
+//    color: #ffffff;
+//  }
+//  .p-message-icon {
+//    color: #ffffff;
+//  }
+//}
+//
+//.p-message.p-message-success {
+//  background: #44bd32;
+//  border: solid #215d1b;
+//  border-width: 0 0 0 6px;
+//  color: #ffffff;
+//
+//  .p-message-close {
+//    color: #ffffff;
+//  }
+//  .p-message-icon {
+//    color: #ffffff;
+//  }
+//}
+//
+//.p-message.p-message-warn {
+//  background: #db6300;
+//  border: solid #ee863b;
+//  border-width: 0 0 0 6px;
+//  color: #ffffff;
+//
+//  .p-message-close {
+//    color: #ffffff;
+//  }
+//  .p-message-icon {
+//    color: #ffffff;
+//  }
+//}
+//
+//.p-message.p-message-error {
+//  background: #c23616;
+//  border: solid #ff5757;
+//  border-width: 0 0 0 6px;
+//  color: #ffffff;
+//
+//  .p-message-close {
+//    color: #ffffff;
+//  }
+//  .p-message-icon {
+//    color: #ffffff;
+//  }
+//}
+
+
+$cesar-background: #071426;
+$cesar-primary: #2371E0;
+$cesar-secondary: #0FC9E8;
+$cesar-info: #01686F;
+$cesar-warning: #DB6300;
+$cesar-success: #44bd32;
+$cesar-danger: #c23616;
+
+$cesar-input-background: #262D3A;
+$cesar-input-border: #0b4493;

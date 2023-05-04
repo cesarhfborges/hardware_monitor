@@ -1,1 +1,19 @@
-<p>home works!</p>
+<p-card header="Title">
+  <p class="m-0">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque
+    quas!
+  </p>
+</p-card>
+
+<div class="card">
+  <p-messages [(value)]="messages1" [enableService]="false"></p-messages>
+<!--  <p-messages [(value)]="messages2"></p-messages>-->
+</div>
+
+<p-card>
+  <p-toast></p-toast>
+  <button type="button" pButton pRipple (click)="showSuccess()" label="Success" class="p-button-success"></button>
+  <button type="button" pButton pRipple (click)="showInfo()" label="Info" class="p-button-info"></button>
+  <button type="button" pButton pRipple (click)="showWarn()" label="Warn" class="p-button-warning"></button>
+  <button type="button" pButton pRipple (click)="showError()" label="Error" class="p-button-danger"></button>
+</p-card>
